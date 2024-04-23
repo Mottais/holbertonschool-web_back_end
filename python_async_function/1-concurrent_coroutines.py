@@ -16,6 +16,14 @@ async def wait_n(n: int, max_delay: int) -> typing.List[float]:
         liste_operations.append(wait_random(max_delay))
 
     # lance et attend que toutes les opérations de la liste soient terminées
-    liste_delais = await asyncio.gather(*liste_operations)
+    '''liste_delais = await asyncio.gather(*liste_operations)
 
-    return sorted(liste_delais)
+    return sorted(liste_delais)'''
+
+    # autre solution
+    liste_delais = []
+    for operation in asyncio.as_completed(liste_operations):
+        delais = await operation
+        liste_delais.append(delais)
+
+    return liste_delais
