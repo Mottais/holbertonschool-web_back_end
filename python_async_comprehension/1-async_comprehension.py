@@ -6,7 +6,7 @@ async_generator = __import__('0-async_generator').async_generator
 
 async def async_comprehension() -> List[float]:
     """Crée liste contenant 10 nbs aléatoires."""
-
+    # Méthode classique
     '''Liste_10_nb_aleatoires = []
 
     async for yield_value in async_generator():
