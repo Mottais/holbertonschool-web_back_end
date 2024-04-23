@@ -4,10 +4,10 @@
 
 import asyncio
 import random
-from typing import Generator
+from typing import AsyncGenerator
 
 
-async def async_generator() -> Generator[float, None, None]:
+async def async_generator() -> AsyncGenerator[float, None]:
     """Contient une coroutine qui génère 10x des nombres aléatoires de [0, 10[
         toutes les secondes"""
 
