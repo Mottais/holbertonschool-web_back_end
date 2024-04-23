@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""contient une fonction asynchrone wait_random"""
+"""contient méthode asynchrone wait_random"""
 import random
 import asyncio
 
