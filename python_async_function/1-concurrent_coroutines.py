@@ -2,10 +2,11 @@
 """"contient méthode asynchrone wait_n"""
 
 import asyncio
+import typing
 wait_random = __import__('0-basic_async_syntax').wait_random
 
 
-async def wait_n(n, max_delay):
+async def wait_n(n: int, max_delay: int) -> typing.List[float]:
     """lance n tâches asynchrones 'wait_random' qui s'exécutent en parallèle
     et dure au maximum max_delay secondes"""
 
