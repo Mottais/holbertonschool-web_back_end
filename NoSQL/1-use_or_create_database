@@ -1,0 +1,3 @@
+// Utile la base de données my_db et la crée si elle n'existe pas
+
+use my_db
