@@ -1,0 +1,5 @@
+// Ajoute un champ address avec la valeur 972 Mission street à tous les documents de la collection school qui ont le champ name égal à Holberton school
+// {multi: true} met à jour tous les documents qui correspondent à la condition
+// sinon il ne met à jour que le premier document qui correspond à la condition
+
+db.school.update({name: 'Holberton school'}, {'$set' : {'address': '972 Mission street'}}, {multi: true})
