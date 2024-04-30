@@ -141,7 +141,7 @@ Repo:
 
 0/9 pts.
 
-##1. Create a database
+## 1. Create a database
 mandatory
 
 Write a script that creates or uses the database my_db:
@@ -172,7 +172,7 @@ Repo:
 
 0/8 pts.
 
-##2. Insert document
+## 2. Insert document
 mandatory
 
 Write a script that inserts a document in the collection school:
@@ -196,7 +196,7 @@ Repo:
 
 0/8 pts.
 
-##3. All documents
+## 3. All documents
 mandatory
 
 Write a script that lists all documents in the collection school:
@@ -219,7 +219,7 @@ Repo:
 
 0/9 pts.
 
-##4. All matches
+## 4. All matches
 mandatory
 
 Write a script that lists all documents with name="Holberton school" in the collection school:
@@ -242,7 +242,7 @@ Repo:
 
 0/11 pts.
 
-##5. Count
+## 5. Count
 mandatory
 
 Write a script that displays the number of documents in the collection school:
@@ -265,7 +265,7 @@ Repo:
 
 0/9 pts.
 
-##6. Update
+## 6. Update
 mandatory
 
 Write a script that adds a new attribute to a document in the collection school:
@@ -297,7 +297,7 @@ Repo:
 
 0/11 pts.
 
-##7. Delete by match
+## 7. Delete by match
 mandatory
 
 Write a script that deletes all documents with name="Holberton school" in the collection school:
@@ -326,7 +326,7 @@ Repo:
 
 0/11 pts.
 
-##8. List all documents in Python
+## 8. List all documents in Python
 mandatory
 
 Write a Python function that lists all documents in a collection:
@@ -362,7 +362,7 @@ Repo:
 
 0/9 pts.
 
-##9. Insert a document in Python
+## 9. Insert a document in Python
 mandatory
 
 Write a Python function that inserts a new document in a collection based on kwargs:
@@ -404,7 +404,7 @@ Repo:
 
 0/14 pts.
 
-##10. Change school topics
+## 10. Change school topics
 mandatory
 
 Write a Python function that changes all topics of a school document based on the name:
@@ -454,7 +454,7 @@ Repo:
 
 0/11 pts.
 
-##11. Where can I learn Python?
+## 11. Where can I learn Python?
 mandatory
 
 Write a Python function that returns the list of school having a specific topic:
@@ -503,7 +503,7 @@ Repo:
 
 0/13 pts.
 
-##12. Log stats
+## 12. Log stats
 mandatory
 
 Write a Python script that provides some stats about Nginx logs stored in MongoDB:
