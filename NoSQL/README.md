@@ -3,7 +3,7 @@
 Curriculum
 Foundations v2 - Part 3 Average: 99.66%
 Project badge
-NoSQL
+# NoSQL
 
     Amateur
     By: Emmanuel Turlay, Staff Software Engineer at Cruise and Guillaume, CTO at Holberton school
@@ -117,7 +117,7 @@ bye
 $
 
 Tasks
-0. List all databases
+## 0. List all databases
 mandatory
 
 Write a script that lists all databases in MongoDB.
@@ -139,8 +139,9 @@ Repo:
     Directory: NoSQL
     File: 0-list_databases
 
-0/9 pts
-1. Create a database
+0/9 pts.
+
+##1. Create a database
 mandatory
 
 Write a script that creates or uses the database my_db:
@@ -169,8 +170,9 @@ Repo:
     Directory: NoSQL
     File: 1-use_or_create_database
 
-0/8 pts
-2. Insert document
+0/8 pts.
+
+##2. Insert document
 mandatory
 
 Write a script that inserts a document in the collection school:
@@ -192,8 +194,9 @@ Repo:
     Directory: NoSQL
     File: 2-insert
 
-0/8 pts
-3. All documents
+0/8 pts.
+
+##3. All documents
 mandatory
 
 Write a script that lists all documents in the collection school:
@@ -214,8 +217,9 @@ Repo:
     Directory: NoSQL
     File: 3-all
 
-0/9 pts
-4. All matches
+0/9 pts.
+
+##4. All matches
 mandatory
 
 Write a script that lists all documents with name="Holberton school" in the collection school:
@@ -236,8 +240,9 @@ Repo:
     Directory: NoSQL
     File: 4-match
 
-0/11 pts
-5. Count
+0/11 pts.
+
+##5. Count
 mandatory
 
 Write a script that displays the number of documents in the collection school:
@@ -258,8 +263,9 @@ Repo:
     Directory: NoSQL
     File: 5-count
 
-0/9 pts
-6. Update
+0/9 pts.
+
+##6. Update
 mandatory
 
 Write a script that adds a new attribute to a document in the collection school:
@@ -289,8 +295,9 @@ Repo:
     Directory: NoSQL
     File: 6-update
 
-0/11 pts
-7. Delete by match
+0/11 pts.
+
+##7. Delete by match
 mandatory
 
 Write a script that deletes all documents with name="Holberton school" in the collection school:
@@ -317,8 +324,9 @@ Repo:
     Directory: NoSQL
     File: 7-delete
 
-0/11 pts
-8. List all documents in Python
+0/11 pts.
+
+##8. List all documents in Python
 mandatory
 
 Write a Python function that lists all documents in a collection:
@@ -352,8 +360,9 @@ Repo:
     Directory: NoSQL
     File: 8-all.py
 
-0/9 pts
-9. Insert a document in Python
+0/9 pts.
+
+##9. Insert a document in Python
 mandatory
 
 Write a Python function that inserts a new document in a collection based on kwargs:
@@ -393,8 +402,9 @@ Repo:
     Directory: NoSQL
     File: 9-insert_school.py
 
-0/14 pts
-10. Change school topics
+0/14 pts.
+
+##10. Change school topics
 mandatory
 
 Write a Python function that changes all topics of a school document based on the name:
@@ -442,8 +452,9 @@ Repo:
     Directory: NoSQL
     File: 10-update_topics.py
 
-0/11 pts
-11. Where can I learn Python?
+0/11 pts.
+
+##11. Where can I learn Python?
 mandatory
 
 Write a Python function that returns the list of school having a specific topic:
@@ -490,8 +501,9 @@ Repo:
     Directory: NoSQL
     File: 11-schools_by_topic.py
 
-0/13 pts
-12. Log stats
+0/13 pts.
+
+##12. Log stats
 mandatory
 
 Write a Python script that provides some stats about Nginx logs stored in MongoDB:
@@ -554,8 +566,9 @@ Repo:
     Directory: NoSQL
     File: 12-log_stats.py
 
-0/12 pts
+0/12 pts.
 
+##
 Score
 Project badge
 
