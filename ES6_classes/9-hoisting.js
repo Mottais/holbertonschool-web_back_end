@@ -1,4 +1,4 @@
-class HolbertonClass {
+export class HolbertonClass {
   constructor(year, location) {
     this._year = year;
     this._location = location;
@@ -19,7 +19,7 @@ const class2020 = new HolbertonClass(2020, 'San Francisco');
 
 
 
-class StudentHolberton {
+export class StudentHolberton {
   constructor(firstName, lastName, holbertonClass) {
     this._firstName = firstName;
     this._lastName = lastName;
