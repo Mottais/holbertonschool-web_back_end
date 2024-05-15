@@ -28,3 +28,8 @@ export default async function handleProfileSignup(firstName, lastName, fileName)
 
   return output;
 }
+
+
+// Ci-dessous une solution plus simple mais qui ne passe pas le checker
+// C'est sans doute encore un pb du checker...
+// return Promise.allSettled([signUpPromise, uploadPhotoPromise]);
