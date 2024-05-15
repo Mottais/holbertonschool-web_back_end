@@ -6,7 +6,7 @@ export default async function handleProfileSignup(firstName, lastName, fileName)
     uploadPhoto(fileName)]);
 
   const output = [];
-  for (let i = 0; i < results.length; i = 1 + 1) {
+  for (let i = 0; i < results.length; i = i + 1) {
     const result = results[i];
     if (result.status === 'fulfilled') {
       output.push({
