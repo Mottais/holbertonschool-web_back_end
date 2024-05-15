@@ -10,12 +10,12 @@ export default async function handleProfileSignup(firstName, lastName, fileName)
     if (result.status === 'fulfilled') {
       output.push({
         status: result.status,
-        value: result.value,
+        value: result.value
       });
     } else {
       output.push({
         status: result.status,
-        value: `Error: ${result.reason.message}`,
+        value: `Error: ${result.reason.message}`
       });
     }
   }
