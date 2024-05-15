@@ -8,5 +8,23 @@ export default async function handleProfileSignup(firstName, lastName, fileName)
   // statut (status) et la valeur ou la raison du rejet (value ou reason) de chaque promesse.
   // contrairement à Promise. all qui renvoi une seule promesse qui est rejetée si une des promesses
   // est rejetée.
-  return Promise.allSettled([signUpPromise, uploadPhotoPromise]);
+  const results = await Promise.allSettled([signUpPromise, uploadPhotoPromise]);
+
+  const output = [];
+  for (let i = 0; i < results.length; i += 1) {
+    const result = results[i];
+    if (result.status === 'fulfilled') {
+      output.push({
+        status: result.status,
+        value: result.value,
+      });
+    } else {
+      output.push({
+        status: result.status,
+        value: `Error: ${result.reason.message}`,
+      });
+    }
+  }
+
+  return output;
 }
